@@ -4,8 +4,14 @@ A new Flutter application.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is about news app from around the world.
+Data is from [news-api](https://newsapi.org) and 
+design is inspired from [dribble: purrweb UI](https://dribbble.com/shots/14607543-Newsfeed-App-Design) 
 
+this project is my exercise going with flutter
+
+
+### Flutter Documentation
 A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
