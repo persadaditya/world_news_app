@@ -115,8 +115,10 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
                                                     ),
                                                   ),
                                                   placeholder: (context, url) => Image.network("https://image.freepik.com/free-vector/loading-icon_167801-436.jpg"),
-                                                  errorWidget: (context, url, error) => Icon(Icons.broken_image_rounded,
-                                                    size: 80.0,),
+                                                  errorWidget: (context, url, error) => Center(
+                                                    child: Icon(Icons.broken_image_rounded,
+                                                      size: 80.0,),
+                                                  ),
                                                 ),
 
                                                 Column(
